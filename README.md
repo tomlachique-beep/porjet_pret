@@ -1,22 +1,18 @@
 # Étude économétrique : déterminants de l’octroi d’un prêt
 
 Ce projet a pour objectif d’identifier les facteurs socio-économiques influençant la probabilité d’obtenir un prêt bancaire.  
-Il s’inscrit dans le cadre d’un travail d’économétrie appliquée et vise à mobiliser les outils statistiques utilisés dans les activités de data analyst.
+Il s’inscrit dans le cadre d’un travail d’économétrie appliquée et mobilise les outils statistiques utilisés dans l’analyse de données.
 
----
+## Objectifs du projet
 
-##  Objectifs du projet
-
-- Construire un **modèle linéaire multiple** expliquant l’octroi d’un prêt.
+- Construire un modèle linéaire multiple expliquant l’octroi d’un prêt.
 - Étudier l’impact de variables socio-économiques : revenu, âge, statut familial, taux d’endettement, etc.
-- Réaliser des **tests de significativité** (t-test, F-test).
+- Réaliser des tests de significativité (t-test, F-test).
 - Évaluer la qualité du modèle (R², R² ajusté, analyse des résidus).
 - Identifier les variables ayant le plus d’influence sur la décision d’octroi.
-- Interpréter les résultats afin d’en tirer des **conclusions économiques**.
+- Interpréter les résultats afin d’en tirer des conclusions économiques.
 
----
-
-##  Données
+## Données
 
 Les données sont importées depuis le fichier :
 
@@ -24,45 +20,38 @@ data/donnees_pret.xlsx
 
 Elles contiennent notamment :
 
-- Revenu  
-- Âge  
-- Taux d’endettement  
-- Situation familiale  
-- Montant demandé  
-- Variable binaire : *prêt accordé* (1 = oui, 0 = non)
+- Revenu
+- Âge
+- Taux d’endettement
+- Situation familiale
+- Montant demandé
+- Variable binaire : prêt accordé (1 = oui, 0 = non)
 
----
+## Méthodologie économétrique
 
-##  Méthodologie économétrique
-
-- Nettoyage et préparation des données  
-- Estimation d’un **modèle linéaire multiple (OLS)**  
-- Analyse des coefficients estimés  
+- Nettoyage et préparation des données
+- Estimation d’un modèle linéaire multiple (OLS)
+- Analyse des coefficients estimés
 - Tests statistiques :
-  - **t-tests** (significativité individuelle)
-  - **F-test** (significativité globale)
-  - **Intervalle de confiance**
+  - t-tests (significativité individuelle)
+  - F-test (significativité globale)
+  - Intervalles de confiance
 - Détection de problèmes potentiels :
-  - Hétéroscédasticité  
-  - Multicolinéarité  
+  - Hétéroscédasticité
+  - Multicolinéarité
   - Résidus non normaux
 
----
+## Stack technique
 
-##  Stack technique
+- Excel : exploration initiale
+- Python :
+  - pandas : manipulation des données
+  - numpy : transformations numériques
+  - statsmodels : régression linéaire et tests
+  - matplotlib / seaborn : visualisation
 
-- **Excel** : exploration initiale des données
-- **Python** :  
-  - `pandas` : manipulation des données  
-  - `numpy` : transformations numériques  
-  - `statsmodels` : régression linéaire et tests  
-  - `matplotlib / seaborn` : graphiques
+## Structure du projet
 
----
-
-##  Structure du projet
-
-```text
 .
 ├─ data/
 │  └─ donnees_pret.xlsx
@@ -73,26 +62,21 @@ Elles contiennent notamment :
 ├─ README.md
 ├─ requirements.txt
 
-```
-
 ## Compétences mises en avant
 
- - Econométrie appliquée
- - Régression linéaire multiple (OLS)
- - Analyse statistique et tests de significativité
- - Visualisation de données
- - Nettoyage et préparation de données
- - Interprétation orientée business
- - Utilisation de Python pour l'analyse économique
+- Économétrie appliquée
+- Régression linéaire multiple (OLS)
+- Analyse statistique et tests de significativité
+- Visualisation de données
+- Nettoyage et préparation de données
+- Interprétation orientée business
+- Utilisation de Python pour l’analyse économique
 
----
-
-##  Auteur
+## Auteur
 
 Projet réalisé par **Lachique Tom**  
-Étudiant en **Master Information, Communication parcours Data analytics et stratégie de l'information** (Université de Toulon)  
-À la recherche d’un **stage en data analyst**.
+Étudiant en Master Information, Communication parcours Data analytics et stratégie de l'information (Université de Toulon)  
+À la recherche d’un stage en data analyst.
 
-📩 E-mail : tom.lachique.135@gmail.com
-
-🔗 LinkedIn : https://www.linkedin.com/in/tom-lachique-9b969427b/
+E-mail : tom.lachique.135@gmail.com  
+LinkedIn : https://www.linkedin.com/in/tom-lachique-9b969427b/
