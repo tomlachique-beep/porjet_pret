@@ -51,7 +51,7 @@ Elles contiennent notamment :
   - matplotlib / seaborn : visualisation
 
 ## Structure du projet
-
+''' texte
 .
 ├─ data/
 │  └─ donnees_pret.xlsx
@@ -61,6 +61,7 @@ Elles contiennent notamment :
 │  └─ 01_modele_lineaire.ipynb
 ├─ README.md
 ├─ requirements.txt
+'''
 
 ## Compétences mises en avant
 
@@ -80,3 +81,4 @@ Projet réalisé par **Lachique Tom**
 
 E-mail : tom.lachique.135@gmail.com  
 LinkedIn : https://www.linkedin.com/in/tom-lachique-9b969427b/
+
